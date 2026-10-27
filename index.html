@@ -86,7 +86,8 @@
   a.paper:hover { color: var(--red); text-decoration: none; border-bottom-color: var(--red); }
   .with { color: var(--muted); }
   .journal { font-weight: 700; font-style: italic; }
-  .award { font-style: italic; font-size: 15.5px; margin-top: 2px; }
+  .award { font-style: italic; font-size: 15.5px; margin-top: 2px; position: relative; padding-left: 18px; }
+  .award::before { content: "•"; position: absolute; left: 4px; font-style: normal; }
   .tag {
     display: inline-block; margin-left: 6px; padding: 0 6px; border-radius: 3px;
     background: var(--red); color: #fff; font-size: 11.5px; font-weight: 600;
