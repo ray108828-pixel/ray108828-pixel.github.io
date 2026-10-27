@@ -79,9 +79,8 @@
   }
   p { margin: 0 0 12px; }
 
-  ol { margin: 0; padding-left: 28px; }
-  ol li { margin-bottom: 14px; padding-left: 4px; }
-  ol li::marker { color: var(--red); font-weight: 600; }
+  ol { margin: 0; padding: 0; list-style: none; }
+  ol li { margin-bottom: 16px; }
   .paper { font-weight: 600; }
   a.paper { color: var(--text); border-bottom: 1px solid transparent; }
   a.paper:hover { color: var(--red); text-decoration: none; border-bottom-color: var(--red); }
@@ -111,7 +110,6 @@
     .photo { width: 130px; }
     h1 { font-size: 30px; }
     body { font-size: 16px; }
-    ol { padding-left: 24px; }
     footer { padding-left: 16px; padding-right: 16px; }
   }
 </style>
@@ -194,7 +192,7 @@
   </ol>
 
   <h2>Working Papers</h2>
-  <ol start="10">
+  <ol>
     <li>
       <span class="paper">Gender, Fund Performance, and ESG</span>
       <span class="with">(with G. Cai, P.J. Irvine, and Y. Zhang)</span>
@@ -214,7 +212,7 @@
   </ol>
 
   <h2>Miscellaneous Publications</h2>
-  <ol start="14">
+  <ol>
     <li>
       <a class="paper" target="_blank" rel="noopener" href="https://doi.org/10.1080/00036846.2014.892200">An Intra- and Inter-Industry Evaluation of Three Classification Schemes Common in Capital Market Research</a>
       <span class="with">(with K. Hrazdil and K. Trottier)</span>,
