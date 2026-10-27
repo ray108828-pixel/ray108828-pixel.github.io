@@ -94,6 +94,12 @@
     vertical-align: 2px; line-height: 1.6;
   }
 
+  ul.grants { margin: 0; padding-left: 22px; }
+  ul.grants li { margin-bottom: 8px; padding-left: 2px; }
+  ul.grants li::marker { color: var(--red); }
+  .amount { font-weight: 600; }
+  .role { color: var(--muted); }
+
   footer {
     max-width: 860px; margin: 0 auto; padding: 18px 24px 32px;
     color: var(--muted); font-size: 14px; border-top: 1px solid var(--line);
@@ -218,6 +224,14 @@
       <span class="with">(with D. Anginer, A. Donmez, and H.N. Seyhun)</span>
     </li>
   </ol>
+
+  <h2>Research Funding</h2>
+  <ul class="grants">
+    <li>SSHRC Insight Development Grant <span class="role">(Collaborator)</span>, <span class="amount">$64,660</span>, 2025–2027</li>
+    <li>SSHRC Partnership Grant <span class="role">(Collaborator)</span>, <span class="amount">$2,499,979</span>, 2024–2027</li>
+    <li>SSHRC Insight Grant <span class="role">(Collaborator)</span>, <span class="amount">$74,950</span>, 2023–2026</li>
+    <li>SSHRC Insight Development Grant <span class="role">(Sole Applicant)</span>, <span class="amount">$74,805</span>, 2019–2023</li>
+  </ul>
 
 </div>
 <footer>Last updated: October 2026</footer>
